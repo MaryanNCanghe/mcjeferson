@@ -1,0 +1,75 @@
+@keyframes moveLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-5px); }
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+
+}
+
+  .navbar ul {
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end;
+
+    margin-top: 30px; 
+  }
+  .navbar li {
+    margin-right: 20px; 
+    padding-top: 30px;
+
+    transition: transform 0.3s ease;
+    animation: bounce 0.8s;
+  }
+  
+
+  .navbar li a {
+    font-family: "creepster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #fff; 
+    text-decoration: none; 
+    margin:0 5px; 
+    animation: moveLeft 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #000; 
+    transform: scale(1.1); /* Scale the navbar item on hover */
+   
+  }
+  
+  .Home {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+   
+
+    
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size:cover; 
+    position: fixed;
+    z-index: -1; /* Ensure the background stays behind the content */
+  }
+
+
