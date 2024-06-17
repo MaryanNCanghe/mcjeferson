@@ -6,7 +6,4 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.JPG'],
   base: '/jefynho-music/', 
-  build: {
-    outDir: 'dist'
-  }
 })
