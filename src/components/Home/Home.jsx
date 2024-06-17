@@ -8,7 +8,7 @@ const Home = () => {
     <div className="Home" style={{ backgroundImage: `url(${BackgroundImage})` }}>
       <nav className="navbar">
         <ul>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/"></Link></li>
           <li><a href="https://MaryanNCanghe.github.io/jefynho-links" target="_blank" rel="noopener noreferrer">Album</a></li>
           <li><a href="https://MaryanNCanghe.github.io/jefynho-links" target="_blank" rel="noopener noreferrer">Music</a></li>
           <li><Link to="/videos">Videos</Link></li>
