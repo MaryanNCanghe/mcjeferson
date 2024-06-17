@@ -6,6 +6,10 @@
 
 @import url('https://www.fontspace.com/story-book-font-f20648');
 
+
+/* Other styles */
+
+
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
@@ -20,12 +24,15 @@
 
 /* Set the global background and text */
 html, body {
-  background-color: #000;
-  color: #fff;
+  background-color:#000;
+  height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "HelveticaNeueRoman", sans-serif;
+  overflow: auto;
+  z-index:-1 ;
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -94,6 +101,13 @@ a {
   font-weight:normal;
   font-style:normal;
   font-display:swap;
+}
+
+@font-face {
+  font-family: 'StoryBook';
+  src: url('../../assets/fonts/StoryBook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {

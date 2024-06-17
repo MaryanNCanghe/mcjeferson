@@ -6,10 +6,10 @@ import Music from './components/Music/Music';
 import Videos from './components/Videos/Videos';
 import Tour from './components/Tour/Tour';
 import Footer from './components/Footer/Footer';
-
+import './App.css'; 
 function App() {
   return (
-   
+    
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/tour" element={<Tour />} />
-        </Routes>
+         </Routes>
         <Footer />
       </div>
    

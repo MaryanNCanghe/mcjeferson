@@ -1,0 +1,34 @@
+.videos-page {
+    padding: 20px;
+  }
+  
+  .videos-title {
+    text-align: flex-start;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #fff; /* Adjust the color as needed */
+  }
+  
+  .videos-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction:column;
+    padding:0px 20px;
+  }
+  
+  .video-item {
+    flex: 1 1 300px; /* Adjust the width of the columns */
+    max-width: 300px; /* Optional: set a max-width */
+    overflow: hidden; 
+    margin: 0px;
+    text-align: flex-start;
+  }
+  
+  .video-item h3 {
+    margin-top: 5px;
+    font-size: 8px;
+    color: #fff; /* Adjust the color as needed */
+  }
+  
