@@ -4,7 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/jefynho/', 
+  assetsInclude: ['**/*.JPG'],
+  base: '/jefynho-music/', 
   build: {
     outDir: 'dist'
   }

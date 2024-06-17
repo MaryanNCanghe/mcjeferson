@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Protest+Revolution&display=swap');
 
-@import url('https://www.fontspace.com/story-book-font-f20648');
 
 
 /* Other styles */
@@ -22,15 +21,15 @@
   --color-white: #FFFFFF;
 }
 
-
+/* Set the global background and text */
 html, body {
   background-color:#000;
   height: 100%;
   margin: 0;
   padding: 0;
   overflow: auto;
-  z-index:1 ;
 }
+
 
 
 * {
@@ -83,34 +82,4 @@ a {
   to { transform: translateX(-5px); }
 }
 
-
-@font-face {
-  font-family: "DrukWideMediumRegular";
-  src: url("/fonts/DrukWideMediumRegular/normal.ttf") format("truetype");
-}
-
-@font-face{
-  font-family: "HelveticaNeue-Roman";
-  src: url("136d9d929397f0027273643b6c4a506c.eot");
-  src: url("136d9d929397f0027273643b6c4a506c.eot?#iefix")format("embedded-opentype"),
-      url("136d9d929397f0027273643b6c4a506c.woff")format("woff"),
-      url("136d9d929397f0027273643b6c4a506c.woff2")format("woff2"),
-      url("136d9d929397f0027273643b6c4a506c.ttf")format("truetype"),
-      url("136d9d929397f0027273643b6c4a506c.svg#HelveticaNeue-Roman")format("svg");
-  font-weight:normal;
-  font-style:normal;
-  font-display:swap;
-}
-
-@font-face {
-  font-family: 'StoryBook';
-  src: url('../../assets/fonts/StoryBook.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "DrukWideMediumRegular";
-  src: url("/fonts/DrukWideMediumRegular/normal.ttf") format("truetype");
-}
 
