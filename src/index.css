@@ -32,12 +32,6 @@ html, body {
   z-index:1 ;
 }
 
-body {
-  background: url('../assets/BG/backgroundimage.png') no-repeat center center fixed;
-  background-size: cover;
-}
-
-
 
 * {
   box-sizing: border-box;
