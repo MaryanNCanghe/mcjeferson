@@ -13,6 +13,7 @@
  
     height: 100px; /* Adjust the footer height as needed */
   margin-top: 20px;
+  z-index:1;
 }
 
 /* Rest of your styles */
