@@ -5,26 +5,20 @@ const Tour = () => {
   // Define the event data directly within Tour.jsx
   const eventList = [
     {
-      title: 'Concert 1',
-      location: 'Casa do Thalys, Codo ',
-      date: 'January 1, 2025',
-      price: '$50',
+      title: 'Chegando com mais novidades!',
+      location: '',
+      date: '',
+      price: '',
       paypalLink: 'https://www.paypal.com/paypalme/yourPaypalUsername/concert-1'
     },
-    {
-      title: 'Concert 2',
-      location: 'Venue 2, S. Paulo',
-      date: 'February 15, 2025',
-      price: '$70',
-      paypalLink: 'https://www.paypal.com/paypalme/yourPaypalUsername/concert-2'
-    },
-    {
-      title: 'Concert 2',
-      location: 'Venue 2, Brasilia',
-      date: 'February 15, 2025',
-      price: '$50',
-      paypalLink: 'https://www.paypal.com/paypalme/yourPaypalUsername/concert-2'
-    },
+   // {
+      // title: 'Concert 2',
+     //   location: 'Venue 2, S. Paulo',
+    //  date: 'February 15, 2025',
+   //   price: '$70',
+  //  paypalLink: 'https://www.paypal.com/paypalme/yourPaypalUsername/concert-2'
+ //  },
+   
     // Add more events as needed
   ];
 
